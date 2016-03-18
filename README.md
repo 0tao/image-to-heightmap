@@ -55,7 +55,7 @@ Maybe call this a `grid` instead of `tiles`?
 
 ## API
 
-### `toHM(imageURL, numXTiles, numYTiles, scale, callback)` -> `vtree`
+### `toHM(imageURL, numXTiles, numYTiles, scale, callback)`
 
 #### imageURL
 
