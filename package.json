@@ -1,6 +1,6 @@
 {
   "name": "image-to-heightmap",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Convert an image into a heightmap, based on the pixels' colors",
   "main": "src/image-to-heightmap.js",
   "scripts": {
