@@ -54,9 +54,9 @@ Maybe call this a `grid` instead of `tiles`?
 
 ## API
 
-### `toHM(imageURL, numXTiles, numYTiles, scale, callback)`
+#### `toHM(imageURL, numXTiles, numYTiles, scale, callback)`
 
-#### imageURL
+##### imageURL
 
 *Required*
 
@@ -66,7 +66,7 @@ Type: `string`
 
 This gets passed into [scijs/get-pixels](https://github.com/scijs/get-pixels#install)
 
-#### numXTiles
+##### numXTiles
 
 *Required*
 
