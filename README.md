@@ -22,13 +22,12 @@ $ npm install --save image-to-heightmap
 
 ## Usage
 
+This will generate an **11 x 6** heightmap array from our image
+
+`10 x 5` tiles means we have `11 x 6` different corners
+
 ```js
 var toHM = require('image-to-heightmap')
-
-// This will generate an 11 x 6 heightmap array from our image
-// Why 11 x 6 ?
-//
-// 10 x 5 tiles means we have 11 x 6 different corners
 toHM('some-image.png', 10, 5, 2, function (err, heightmap) {
     console.log(heightmap[0][0])
     // The height of the point at the bottom left corner
@@ -98,7 +97,8 @@ A pixel with `rgba` of `50, 50, 50, 255` would have a height of (50 / 255 * scal
 Type: `function`
 
 Called with an `error` and your 2-dimensional heightmap array
-```
+
+```js
 function cb (err, heightmap) {
   console.log(heightmap[1,1])
   // The height at the top right corner of the bottom left tile
