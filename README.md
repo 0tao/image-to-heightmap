@@ -1,7 +1,7 @@
 image-to-heightmap [![npm version](https://badge.fury.io/js/image-to-heightmap.svg)](http://badge.fury.io/js/image-to-heightmap) [![Build Status](https://travis-ci.org/chinedufn/image-to-heightmap.svg?branch=master)](https://travis-ci.org/chinedufn/image-to-heightmap)
 ==================
 
-> Convert a JPG or PNG image into a tile-based height-map array
+> Convert a JPG or PNG image into a heightmap array
 
 ## Initial Motivation
 
@@ -10,9 +10,9 @@ To use when creating terrains in WebGL
 ex:
 
 1. Make a hilly terrain in a 3d modeling tool
-2. Save as height-map image
-3. Use `images-to-heightmap` on image
-4. Generate a grid of `GL_TRIANGLES` (`tiles`) using the heights from the height map
+2. Save as heightmap image
+3. Use `image-to-heightmap` on image
+4. Generate a grid of `GL_TRIANGLES` (`tiles`) using the heights from the heightmap
 
 ## To Install
 
